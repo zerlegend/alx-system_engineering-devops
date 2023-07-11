@@ -16,7 +16,7 @@ SERVER_CONFIG=\
 	location / {
 		try_files \$uri \$uri/ =404;
 	}
-	if (\$request_filename ~ redirect_me){
+	location /redirect_me{
 		return 301 https://github.com/zerlegend;
 	}
 }"
