@@ -1,8 +1,8 @@
 #!/usr/bin/env bash
 # Installs and setup haproxy
 
-apt-get -y update
-apt-get -y install haproxy
+sudo apt-get -y update
+sudo apt-get -y install haproxy
 
 echo "ENABLED=1" >> /etc/default/haproxy
 
