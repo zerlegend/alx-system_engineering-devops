@@ -18,4 +18,4 @@ echo "ENABLED=1" >> /etc/default/haproxy
 
     " >> /etc/haproxy/haproxy.cfg
 
-service haproxy start
+sudo service haproxy start
