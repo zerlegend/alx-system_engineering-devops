@@ -35,7 +35,7 @@ else
 fi
 
 if [ "$CONFIG_WORDS" -eq 0 ]; then
-	sudo echo -e "$HAPROXY_LB_CONFIG" >> $CONFIG_FILE
+	echo -e "$HAPROXY_LB_CONFIG" >> $CONFIG_FILE
 else
 	start_tkn="#--$DOMAIN_NAME-params-begin--"
 	end_tkn="#--$DOMAIN_NAME-params-end--"
