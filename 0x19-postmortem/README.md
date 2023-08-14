@@ -47,16 +47,16 @@ This repository includes tasks that simulate scenarios involving web stack issue
     ║ Load        ║
     ║ Balancer    ║
     ╚═════════════╝
-  /   |         |    \
-╔════════╗ ╔════════╗ ╔════════╗
-║ Web    ║ ║ Web    ║ ║ Web    ║
-║ Server ║ ║ Server ║ ║ Server ║
-╚════════╝ ╚════════╝ ╚════════╝
-   |           |          |
+     	   |
+      ╔════════╗
+      ║ Web    ║
+      ║ Server ║
+      ╚════════╝
+           | 
 ╔═════════════════════════╗
-║       App       App       ║
+║          App            ║
 ╚═════════════════════════╝
-   |           |          |
+           |        
 ╔═════════════════════════╗
 ║       Database          ║
 ╚═════════════════════════╝
