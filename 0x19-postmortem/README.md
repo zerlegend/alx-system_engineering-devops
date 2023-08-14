@@ -56,10 +56,10 @@ This repository includes tasks that simulate scenarios involving web stack issue
     ╔══════════════════╗
     ║       App        ║
     ╚══════════════════╝
-             |        
-   ╔════════════════════╗
-   ║       Database     ║
-   ╚════════════════════╝
+            |        
+      ╔═════════════════╗
+      ║    Database     ║
+      ╚═════════════════╝
 
 
 Please note that the above scenario and tasks are fictional and are provided for educational purposes. The details provided are for illustrative purposes only.
